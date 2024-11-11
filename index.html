@@ -23,12 +23,19 @@
 <div class="control"><i>Flächen kolorieren = C</i></div>
 
 <h2>Dokumentation</h2>
-<div>
+<div class="documentation">
     Das linke Objekt ist ein <b>Möbiusband</b>, das durch eine Parametrisierung in 3D erzeugt wird.
-    <div class="brackets">(Colorierung abhängig von der z-Tiefe)</div>
-    <br/>
+    <i>(Colorierung abhängig von der z-Tiefe)</i><br>
+    Ein Möbiusband ist eine einseitige Fläche mit nur einer Kante und einer Fläche.
+    In diesem Kontext wird es durch eine parametrische Gleichung in 3D erzeugt, die eine Schleife mit einer halben
+    Drehung darstellt. Es ist ein klassisches Beispiel für eine nicht-orientierbare Fläche.
+
+    <br/><br>
     Das Objekt rechts ist ein <b>Hyperboloid</b>, das ebenfalls durch eine Parametrisierung in 3D erzeugt wird.
-    <div class="brackets">(Colorierung abhängig von der z-Tiefe)</div>
+    <i>(Colorierung abhängig von der z-Tiefe)</i><br>
+    Ein Hyperboloid ist eine doppelt gekrümmte Fläche, die durch eine Hyperbel erzeugt wird, die um eine ihrer Achsen
+    rotiert. In diesem Kontext wird es durch eine parametrische Gleichung in 3D erzeugt, die eine symmetrische,
+    sattelförmige Struktur darstellt.
 </div>
 
 <script src="script.js"></script>
@@ -64,8 +71,8 @@
         font-size: 1rem;
         color: #66CD66;
     }
-    .brackets {
-        color: gray;
+    .documentation {
+        margin-bottom: 100px;
     }
 </style>
 
