@@ -68,7 +68,7 @@ const m = 64;
 const n = 64;
 const du = 2 * Math.PI / m;
 const dv = 2 / n;
-const scale = 0.6; // Adjusted scale to better fit within the canvas
+const scale = 0.6;
 
 // Möbiusband (arrays - vertices, colors, indices (lines + triangles))
 const vertices = new Float32Array(3 * (m + 1) * (n + 1));
@@ -176,9 +176,9 @@ function renderMoebius() {
 // TODO --------------------------------------------------------------------------------
 
 // Hyperboloid (params)
-const a = 0.4; // Adjusted scale to better fit within the canvas
-const b = 0.4; // Adjusted scale to better fit within the canvas
-const c = 0.8; // Adjusted scale to better fit within the canvas
+const a = 0.4;
+const b = 0.4;
+const c = 0.8;
 const mHyperboloid = 64;
 const nHyperboloid = 32;
 const duHyperboloid = 2 * Math.PI / mHyperboloid;
